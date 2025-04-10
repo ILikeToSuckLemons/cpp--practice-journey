@@ -50,10 +50,10 @@ int main() {
         
         if (package_volume > tier2_threshold) {
             package_cost += package_cost * tier2_surcharge;
-            cout << " adding tier 2 surcharge" << endl;
+            cout << " adding tier 2 supersub" << endl;
         } else if ( package_volume > tier1_threshold) {
             package_cost += package_cost * tier1_surcharge;
-            cout << " adding tier 1surcharge" << endl;
+            cout << " adding tier 1 supersub" << endl;
         }
         
         cout << fixed << setprecision(2); // prints dollars nicely
